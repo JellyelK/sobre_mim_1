@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#page_1{
+    height: 100vh;
+    background-image: url(img/pexels-eberhard-grossgasteiger-1287145.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* Overlay */
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+nav ul li:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+.btn{
+    margin: 10px;
+    padding:5px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #fd0a60;
+}
+.btn:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+.perfil{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.perfil img{
+    width: 200px;
+    border-radius: 50%;
+}
+.perfil h2{
+    font-size: 60px;
+    padding: 30px 0 0 0;
+    font-family: 'Kanit', sans-serif;
+}
+.perfil p{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*Page 02*/
+
+#page_2{
+    height: 100vh;
+    background-color:#141325;
+    background-blend-mode: color;
+    display: flex;
+    padding: 0 100px;
+}
+.photo_container{
+    height: auto;
+}
+.photo_container img{
+    width: 390px;
+    padding: 80px 0;
+}
+.about{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 50px 30px;
+}
+.personal_informations{
+    padding: 10px 0;
+    width: 700px;
+    border-radius: 10px;
+    border: 2px solid #da1a29;
+
+}
+.personal_informations p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0 0 15px;
+    text-align: justify;
+}
+.sobre_mim{
+    padding: 0 0 30px 0 ;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.sobre_mim h2{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 0 15px 0 ;
+    color: #da1a29;
+}
+/*
+.social-medias{
+    display: flex;
+    justify-content: left;
+}
+.social-medias img{
+    width: 70px;
+    padding: 30px 12px;
+}
+.social-medias img:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+*/
+#page_3{
+    background-color: #141325;
+    color: white;
+}
+#title_3{
+    justify-content: center;
+    padding: 0 560px;
+}
+#title_3 h2{
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 40px;
+    color: #fd0a60;
+    border-bottom: 2px solid #da1a29;
+}
+#servicos{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.container img{
+    width: 110px;
+    color: #fd0a60;
+    color: black;
+    filter: invert(100%);
+}
+.container{
+    text-align: center;
+    width: 30%;
+    height: auto; 
+    border: 2px solid #da1a29; 
+    border-radius: 5%;
+    padding: 10px;
+}
+.container p{
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: Helvetica, sans-serif;
+    padding: 0 10px;
+
+}
+.container h3{
+    padding: 10px 0;
+    letter-spacing: 2px;
+    font-family: Helvetica, sans-serif;
+
+}
